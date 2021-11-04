@@ -5,12 +5,10 @@
 }
 
 body {
-    background-image: url(images/background.png);
+    background: #E48A29;
     font-family:  sans-serif;
     line-height: 1.6;
     color: white;
-    align-items: center;
-    text-align: center;
 
 }
 
@@ -54,9 +52,8 @@ a {
     align-items: start;
     text-align: start;
     position: relative;
-    left: 28%;
-    top: 130px;
     border-radius: 50px;
+    top: 60px;
 
 }
 
@@ -67,35 +64,33 @@ a {
     position: relative;
     visibility: hidden;
     align-items:center;
-    left: 100px;
-    bottom: 30px;
+
 }
 
 .input-take{
-    width: 350px;
+    width: 250px;
     height: 37px;
     border-radius: 50px;
     border: 0px;
     padding: 7px;
     margin: 0px 20px;
     position: absolute;
-    left: 8%;
-    top: 80px;
     border: 2px solid black;
     box-shadow: 3px 3px 0px #087E8B;
+    top: 13px;
 }
 
 .name{
-    left: 38%;
-    top: 80px;
+    left: 260px;
 }
+
 
 .submit-btn{
     width: 100px;
     height: 35px;
     position: absolute;
-    left: 70%;
-    top: 80px;
+    top: 13px;
+    left: 540px;
     border-radius: 50px;
     border: 0px;
     font-family: fantasy;
@@ -129,8 +124,9 @@ a {
     line-height: 0.5;
     border: 0px;
     background: #E48A29;
-    color: white;
-    -webkit-text-stroke: 1.2px black;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
     cursor: pointer;
 }
 
