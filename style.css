@@ -5,7 +5,7 @@
 }
 
 body {
-    background: white;
+    background-image: url(images/background.png);
     font-family:  sans-serif;
     line-height: 1.6;
     color: white;
@@ -38,7 +38,7 @@ a {
     font-weight: 5px;
     bottom: 20px;
     color: #087E8B;
-    text-shadow: 3px 3px 1px #B4EDD2;
+    text-shadow: 3px 3px 1px black;
     -webkit-text-stroke: 0.5px black;
 
 
@@ -48,14 +48,15 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 600px;
-    height: 200px;
-    background: white;
+    width: 610px;
+    height: 230px;
+    background: #E48A29;
     align-items: start;
     text-align: start;
     position: relative;
     left: 28%;
     top: 130px;
+    border-radius: 50px;
 
 }
 
@@ -80,6 +81,8 @@ a {
     position: absolute;
     left: 8%;
     top: 80px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px #087E8B;
 }
 
 .name{
@@ -97,6 +100,8 @@ a {
     border: 0px;
     font-family: fantasy;
     font-size: 17px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px #087E8B;
 }
 
 .linked{
@@ -109,7 +114,7 @@ a {
     box-shadow: 4px 4px 1px #087E8B;
     border: 1px solid black;
     color: white;
-    
+
 }
 
 
@@ -123,8 +128,9 @@ a {
     align-items: center;
     line-height: 0.5;
     border: 0px;
-    background: white;
-    color: black;
+    background: #E48A29;
+    color: white;
+    -webkit-text-stroke: 1.2px black;
     cursor: pointer;
 }
 
