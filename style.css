@@ -5,7 +5,7 @@
 }
 
 body {
-    background: black;
+    background: white;
     font-family:  sans-serif;
     line-height: 1.6;
     color: white;
@@ -21,11 +21,10 @@ a {
 .main-heading{
     font-family: fantasy;
     font-size: 60px;
-    background: -webkit-linear-gradient(red, red, orange, rgb(243, 227, 0));
+    background: -webkit-linear-gradient(#ED254E, #ED254E, #087E8B, #087E82);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 2px 1px 1px black;
-    -webkit-text-stroke: 0.5px Red;
+    -webkit-text-stroke: 1px black;
     position: relative;
     left: 12px;
 }
@@ -34,11 +33,14 @@ a {
     font-size: 20px;
     position: relative;
     left: 7px;
+    top: 10px;
     font-family: fantasy;
     font-weight: 5px;
     bottom: 20px;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 2px 2px 2px white;
+    color: #087E8B;
+    text-shadow: 3px 3px 1px #B4EDD2;
+    -webkit-text-stroke: 0.5px black;
+
 
 }
 
@@ -48,12 +50,12 @@ a {
     flex-wrap: wrap;
     width: 600px;
     height: 200px;
-    background: black;
+    background: white;
     align-items: start;
     text-align: start;
     position: relative;
     left: 28%;
-    top: 150px;
+    top: 130px;
 
 }
 
@@ -64,6 +66,8 @@ a {
     position: relative;
     visibility: hidden;
     align-items:center;
+    left: 100px;
+    bottom: 30px;
 }
 
 .input-take{
@@ -99,8 +103,16 @@ a {
     width: 70px;
     height: 70px;
     margin: 10px;
-
+    font-family: fantasy;
+    background: #ED254E;
+    border: 0px;
+    box-shadow: 4px 4px 1px #087E8B;
+    border: 1px solid black;
+    color: white;
+    
 }
+
+
 
 .add-new, .del-btn {
     width: 15px;
@@ -111,8 +123,8 @@ a {
     align-items: center;
     line-height: 0.5;
     border: 0px;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer;
 }
 
