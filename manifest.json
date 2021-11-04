@@ -1,5 +1,5 @@
 {
-    "manifest_version" : 3,
+    "manifest_version" : 2,
     "name" : "Dev Hub",
     "description" : "Launch your everyday resources from oneplace",
     "version" : "1.0.0",
