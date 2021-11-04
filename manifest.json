@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 3,
+    "name" : "Dev Hub",
+    "description" : "Launch your everyday resources from oneplace",
+    "version" : "1.0.0",
+    "icons" : {"128": "icon_128.png"},
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"]
+}
