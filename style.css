@@ -78,19 +78,20 @@ a {
     border: 2px solid black;
     box-shadow: 3px 3px 0px #087E8B;
     top: 13px;
+    left: -16px;
 }
 
 .name{
-    left: 260px;
+    left: 237px;
 }
 
 
 .submit-btn{
-    width: 100px;
+    width: 96px;
     height: 35px;
     position: absolute;
     top: 13px;
-    left: 540px;
+    left: 510px;
     border-radius: 50px;
     border: 0px;
     font-family: fantasy;
@@ -109,7 +110,6 @@ a {
     box-shadow: 4px 4px 1px #087E8B;
     border: 1px solid black;
     color: white;
-
 }
 
 
@@ -132,7 +132,7 @@ a {
 
 .add-new:hover{
     animation-name: shake;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 @keyframes shake{
@@ -140,10 +140,26 @@ a {
         transform: rotate(90deg);
     }
     50%{
-        transform: rotate(90deg);
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
     }
     100%{
-        transform: rotate(90deg);
+        transform: rotate(360deg);
     }
 }
+
+
+.box{
+    width: 618px;
+    height: 498px;
+    background: transparent;
+    position: relative;
+    left: 0;
+    top: 0;
+    border: 3px solid black;
+}
+
+
 
