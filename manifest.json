@@ -1,7 +1,7 @@
 {
     "manifest_version" : 2,
-    "name" : "Dev Hub",
-    "description" : "Launch your everyday resources from oneplace",
+    "name" : "SuperCuts",
+    "description" : "Launch your everyday resources from one place",
     "version" : "1.0.0",
     "icons" : {"128": "icon_128.png"},
     "browser_action" : {
