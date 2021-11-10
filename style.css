@@ -108,6 +108,8 @@ a {
     box-shadow: 4px 4px 5px black;
     border: 1px solid black;
     color: white;
+    word-wrap:break-word;
+    overflow-y: hidden;
 }
 
 
