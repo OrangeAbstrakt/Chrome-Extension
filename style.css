@@ -162,4 +162,29 @@ a {
 }
 
 
+nav{
+    background: transparent;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    left: 300px;
+}
 
+.ctgry{
+    width: 60px;
+    height: 30px;
+    background: transparent;
+    border: 0px;
+    background: #E7E7E75E;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.514);
+    padding: 2px;
+}
+
+.ctgry:hover{
+    background: rgba(255, 255, 255, 0.76);
+}
