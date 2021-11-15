@@ -110,6 +110,8 @@ a {
     color: white;
     word-wrap:break-word;
     overflow-y: hidden;
+    -webkit-text-stroke: 1px black;
+    font-size: 14px;
 }
 
 
@@ -180,11 +182,24 @@ nav{
     height: 30px;
     background: transparent;
     border: 0px;
-    background: #E7E7E75E;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.514);
-    padding: 2px;
+    position: relative;
+
 }
+
+
 
 .ctgry:hover{
     background: rgba(255, 255, 255, 0.76);
+}
+
+
+.page-underline{
+    width: 60px;
+    height: 2px;
+    position: relative;
+
+    left: 2px;
+    background: white;
+    box-shadow: 1px 1px 5px white;
 }
