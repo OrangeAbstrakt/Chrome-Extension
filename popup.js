@@ -217,3 +217,30 @@ document.getElementById("btn10").addEventListener("click", function () {
         url: localStorage.getItem("link10"),
     })
 })
+
+
+
+function saveOptions(opName, inputNum){
+    localStorage.setItem(opName, document.getElementById(inputNum).value);
+}
+
+document.getElementById("first-button").addEventListener("click", function(){
+    saveOptions("page1", "first");
+})
+
+document.getElementById("second-button").addEventListener("click", function(){
+    saveOptions("page2", "second");
+})
+
+document.getElementById("third-button").addEventListener("click", function(){
+    saveOptions("page3", "third");
+})
+
+const firstPage = document.getElementById("pg-1");
+firstPage.innerText = localStorage.getItem("page1");
+
+const secondPage = document.getElementById("pg-2");
+secondPage.innerText = localStorage.getItem("page2");
+
+const thirdPage = document.getElementById("pg-3");
+thirdPage.innerText = localStorage.getItem("page3");
